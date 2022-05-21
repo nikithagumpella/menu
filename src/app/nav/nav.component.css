@@ -1,0 +1,76 @@
+
+.brand-title[_ngcontent-ywb-c64] button[_ngcontent-ywb-c64] {
+    font-size: 18px;
+}
+.mat-button, .mat-icon-button {
+    color: inherit;
+    background: transparent;
+}
+.mat-button, .mat-icon-button{
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: center;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+}
+.mat-button{
+    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.mat-button  .mat-button-wrapper>*, .mat-button-wrapper>*, .mat-fab .mat-button-wrapper>*, .mat-button-wrapper>* {
+    vertical-align: middle;
+}
+.mat-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+}
+.abc{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.mat-button, .mat-icon-button, .mat-stroked-button {
+    color: inherit;
+    background: transparent;
+}
+/* 
+.container{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+
+} */
+.card img{
+    width: 250px;
+    height: 350px;
+    margin-bottom: 15px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .searchbox{
+    border: none;
+    border-radius: 2px;
+    background-color: #fafafa;
+    padding: 5px 10px;
+    height: 50%;
+    width: 400px;
+    margin-left: 120px;
+}
+[type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: none;
+}
+

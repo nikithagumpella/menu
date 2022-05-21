@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-lg-6 mt-3 shadow-lg p-0 bg-white rounded" style="margin: auto; ">
+        <div class="card-header" style="background-color: #ff4081;">
+            <h3>Login</h3>
+            <span>New User?</span>&nbsp;
+            <button mat-raised-button class="mat-elevation-z4" [routerLink]='["/register"]'>
+              Register
+            </button>
+        </div>
+        <div class="card p-2">
+            <form  #loginForm="ngForm" (ngSubmit)="onLogin(loginForm)">               
+                <div class="form-group col-12">
+                    <label>Name</label>
+                    <input class="form-control" name="userName" [(ngModel)]="member.userName" required type="text" placeholder="User Name">
+                </div>
+                <div class="form-group col-12">
+                    <label>Password</label>
+                    <input class="form-control" name="userPassword" [(ngModel)]="member.userPassword" required type="password" placeholder="Password">
+                </div>
+        
+                <div class="form-group col-12">
+                    <button [disabled]="!loginForm.valid" type="submit" class="btn btn-primary"(click)='onLogin'>Login</button>
+                </div>               
+            </form> 
+        </div>
+    </div>
+    </div>
+    
