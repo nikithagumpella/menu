@@ -21,10 +21,10 @@ export class UserLoginComponent implements OnInit {
   onLogin(form: NgForm) {
     const user = this.authService.login(this.member);
     if (user) {
-    alert('Successfully logged in');
+      alert('Successfully logged in');
       this.router.navigate(['/home']);
       form.reset();
-      
+
     } else {
       alert('User ID or password is wrong');
     }
